@@ -1,0 +1,197 @@
+Contador Binário:
+
+FEITO	Título no topo
+FEITO	Input para binários
+FEITO	SubmitButton para mostrar o elemento
+Inserção de html com texto vindo do return do SubmitButton
+FEITO	Marca D'água (©Mundus Uni)
+
+
+Calculadora:
+
+FEITO	Título no topo
+FEITO	Descrição/Comando do que fazer
+FEITO	Visor
+FEITO	Botões quadrados para por o input
+FEITO	Marca D'água (©Mundus Uni)
+
+
+Ferramenta de Alarme:
+
+FEITO	Título no Topo
+FEITO	Descrição/Comando do que fazer
+MEIOFEITO	Select para selecionar as coisas.
+FEITO	input para valores
+FEITO	Botões de adicionar alarme e deletar selecionados.
+DEIXAR POR ULTIMO / Form cheio de informações, inseridos com os dados dos inputs.
+
+
+
+
+Por login na home para identificar quem viu meu curriculo. Texto ser alto como: Só peço pelo seu login para garantir que todos que acessem o app sejam humanos. =)
+Idéia é colocar algumas opções no login para a pessoa selecionar qual será o avatar dela.
+
+Colocar um botão para contar a minha história, enquanto mostra os aplicativos.
+
+Fazer em português, e em inglês.
+
+
+Uma página de compras para a pessoa selecionar qual caneta vai usar para me contratar?
+
+Ficar de olho na responsividade do site, isto será muito julgado.
+
+Fazer uma parte do resumo com base neste:
+https://www.youtube.com/watch?v=oYjseP_Qhv4
+
+
+
+
+
+Sites para se inspirar no layout:
+
+codepen
+uplabs
+behance
+niice
+dribbble
+
+https://watracz.com/
+
+
+
+
+Sites para ver palhetas de cores:
+
+Color hunt
+adobe color cc
+coolors
+webgradients
+
+
+
+
+
+
+
+
+PÁGINAS NOVAS VINDO DA DIREITA. NÃO ESQUECER DE ALTERAR O MOSTRADOR DE PÁGINA (OS 7 TRACINHOS)
+
+1 - Home: 
+
+Guilherme Moreira (Numa fonte escrita a mão)
+
+Dev Fullstack Jr. | Software Developer | JavaScript | HTML | CSS | React
+
+
+2: 	Bacharel em Administração com Inglês Fluente e Português Nativo...
+				... em busca de novas experiências profissionais na área da Tecnologia.
+
+	Autodidata na área da Programação...
+				...tanto no front end quanto no back end.
+
+	Procurando novas oportunidades de trabalho...
+				...dê uma olhada na minha caminhada:  (Seta animada para o lado)
+
+
+// A primeira frase vem da esquerda da tela e a segunda vem da direita, com uma pausa de 1 segundo entre elas, e de 2 segundos entre os parágrafos.
+
+3 - Contador Binário
+
+// Colocar o contador binário só que dar uma ajeitada no CSS dele e colocar os binários que podem ser digitados.
+// Por para aparecer após 5 segundos a seta para continuar.
+
+4 - 
+
+	Esta foi minha primeira aplicação
+
+		Depois do Olá Mundo, é claro
+
+			Extremamente simples, mas foi meu primeiro
+
+				Porém minha próxima foi um desafio
+
+						"*SETA*"
+
+5 - Calculadora
+
+// Colocar a calculadora só que dar uma ajeitada no CSS dele e corrigir os bugs de null, undefined, e 0.
+// Por para aparecer após 5 segundos a seta para continuar.
+
+6 - 
+
+	O Desafio foi criar uma calculadora sem utilizar a função math()
+
+		Criando a minha própria lógica para a execução dos cálculos
+
+			Aplicação focada principalmente no JavaScript, sem Frameworks ainda
+
+				O Desafio foi um sucesso, mas então parti para o próximo
+
+						"*SETA*"
+
+7 - Ferramenta de Alarme
+
+// Colocar Ferramenta só que dar uma ajeitada no CSS dela e corrigir os bugs de null, undefined, e 0, e aquelesq ue eu comecei a trabalhar encima.
+// Colocar para aparecer que "Aperte F12 e veja o console para ver o alarme"
+// Por para aparecer após outros 5 segundos a seta para continuar.
+
+8 - 
+
+	Foi a minha primeira aplicação realmente única
+
+		Utilizando a API da Binance para coletar os dados
+
+			Escrito completamente em JS, CSS3 e HTML5 puros
+
+				Sem recuar diante dos obstáculos e desafios durante o percurso
+
+					"*SETA*"
+
+//Por um efeito para ao invés de ir para o lado direito, agora as palavras irem se apagando por 3 segundos, e então...
+
+9 - O Próximo pode ser o seu
+
+// Aparecer via Fade In as palavras:
+
+
+	Esta página foi minha quarta e mais nova aplicação
+
+		Focada em CSS, e agora com o uso do Framework React
+
+			Desafio aceito e cumprido, nos mais altos padrões.
+
+				O Próximo pode ser o seu...
+
+					"*SETA*"
+
+// "focado em css" aparecer primeiro e o resto da frase em seguida
+// "o próximo pode ser o seu" demorar um segundo a mais para aparecer, e fazer aparecer com um Fade In mais demorado.
+
+10 - Currículo
+
+// Fazer o mesmo molde de currículo que o salvo lá
+// Não por o indice embaixo no pdf.
+
+
+
+				
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

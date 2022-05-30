@@ -1,0 +1,38 @@
+.ContadorBinario_Container {
+    background-color: rgb(99, 134, 65);
+    width: 100vw;
+    height: 100vw;
+}
+
+.ContadorBinario_SubContainer {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.295);
+}
+
+.Complemento_Div_Link {
+    animation: Link 2s cubic-bezier(.15,.89,.85,.29), LinkBounce 1s ease-in alternate infinite ;
+    animation-delay: 2s;
+    animation-fill-mode: both;
+    display: grid;
+    place-items: center;
+    margin: auto;
+}
+
+@keyframes Link {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+@keyframes LinkBounce {
+    from {
+        transform: translateX(-30px);
+    }
+    to {
+        transform: translateX(30px);
+    }
+}

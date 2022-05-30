@@ -1,0 +1,30 @@
+.Calculadora_Container {
+    background-color: rgb(99, 134, 65);
+    width: 100vw;
+    height: 100vw;
+}
+
+.Calculadora_SubContainer {
+    background: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.295);
+}
+
+.Buttons_Container_All {
+    margin: 20px;
+}
+
+.Buttons_Container_Etc {
+    text-align: center;
+    padding: 20px;
+    
+}
+
+.Buttons_Container_Num {
+    text-align: center;
+    padding: 1px;
+    
+}

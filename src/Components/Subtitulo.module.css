@@ -1,0 +1,8 @@
+.Subtitulo_Content {
+    color: black;
+    font: normal 15pt Arial;
+    text-align: center;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+}

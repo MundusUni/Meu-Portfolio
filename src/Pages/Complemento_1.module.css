@@ -1,0 +1,126 @@
+
+.Complemento_Section{
+    padding-top: 5vw;
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+}
+
+.Complemento_1_Superior_1 {
+    animation: UpperFadeIn 2s;
+    animation-timing-function: ease-out;
+    animation-delay: 0s;
+    animation-fill-mode: both;
+    margin: auto;
+    font-family: 'Tiro Tamil', serif;
+    padding:5px;
+    grid-column: 1/7;
+}
+
+.Complemento_1_Inferior_1{
+    animation: DownFadeIn 2s;
+    animation-timing-function: ease-out;
+    animation-delay: 1s;
+    animation-fill-mode: both;
+    display: grid;
+    place-items: center;
+    margin: auto;
+    font-family: 'Tiro Tamil', serif;
+    padding:5px;
+    grid-column: 1/8;
+}
+
+.Complemento_1_Superior_2{
+    animation: UpperFadeIn 2s;
+    animation-timing-function: ease-out;
+    animation-delay: 3s;
+    animation-fill-mode: both;
+    display: grid;
+    place-items: center;
+    margin: auto;
+    font-family: 'Tiro Tamil', serif;
+    padding:5px;
+    grid-column: 2/7;
+}
+
+.Complemento_1_Inferior_2{
+    animation: DownFadeIn 2s;
+    animation-timing-function: ease-out;
+    animation-delay: 4s;
+    animation-fill-mode: both;
+    display: grid;
+    place-items: center;
+    margin: auto;
+    font-family: 'Tiro Tamil', serif;
+    padding:5px;
+    grid-column: 3/7;
+}
+
+.Complemento_1_Superior_3{
+    animation: UpperFadeIn 2s;
+    animation-timing-function: ease-out;
+    animation-delay: 6s;
+    animation-fill-mode: both;
+    display: grid;
+    place-items: center;
+    margin: auto;
+    font-family: 'Tiro Tamil', serif;
+    padding:5px;
+    grid-column: 3/9;
+}
+
+
+.Complemento_1_Inferior_3{
+    animation: DownFadeIn 2s;
+    animation-timing-function: ease-out;
+    animation-delay: 7s;
+    animation-fill-mode: both;
+    display: grid;
+    place-items: center;
+    margin: auto;
+    font-family: 'Tiro Tamil', serif;
+    padding: 5px;
+    grid-column: 4/9;
+}
+
+.Complemento_Div_Link {
+    animation: Link 2s cubic-bezier(.15,.89,.85,.29), LinkBounce 1s ease-in alternate infinite ;
+    animation-delay: 9s;
+    animation-fill-mode: both;
+    display: grid;
+    grid-column: 9/9;
+    padding-top: 100px;
+}
+
+.Complemento_1_Link{
+
+    place-items: center;
+    margin: auto;
+}
+
+@keyframes UpperFadeIn{
+    0% {opacity: 0; transform:translateX(-200px)}
+    30% {opacity: 0;}
+    70% {opacity: 1; transform:translateX(25px)}
+    100% {opacity: 1;}
+}
+
+@keyframes DownFadeIn{
+    0% {opacity: 0; transform:translateX(200px)}
+    30% {opacity: 0;}
+    70% {opacity: 1; transform:translateX(-25px)}
+    100% {opacity: 1;}
+}
+
+@keyframes Link {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+@keyframes LinkBounce {
+    from {
+        transform: translateX(-30px);
+    }
+    to {
+        transform: translateX(0);
+    }
+}

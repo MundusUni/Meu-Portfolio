@@ -1,0 +1,125 @@
+.Proximo_Main{
+    padding-top: 5vw;
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+}
+
+.Proximo_1 {
+    animation: UpperFadeIn 2s;
+    animation-timing-function: ease-out;
+    animation-delay: 0s;
+    animation-fill-mode: both;
+    place-items: center;
+    margin: auto;
+    font-family: 'Tiro Tamil', serif;
+    padding:1vw;
+    grid-column: 3/7;
+}
+
+.Proximo_2 {
+    animation: UpperFadeIn 2s;
+    animation-timing-function: ease-out;
+    animation-delay: 1.5s;
+    animation-fill-mode: both;
+    margin: auto;
+    font-family: 'Tiro Tamil', serif;
+    padding:1vw;
+    grid-column: 3/7;
+}
+
+.Proximo_3 {
+    animation: UpperFadeIn 2s;
+    animation-timing-function: ease-out;
+    animation-delay: 3s;
+    animation-fill-mode: both;
+    place-items: center;
+    margin: auto;
+    font-family: 'Tiro Tamil', serif;
+    padding:1vw;
+    grid-column: 3/7;
+}
+
+.Proximo_4 {
+    animation: UpperFadeIn 2s;
+    animation-timing-function: ease-out;
+    animation-delay: 5.5s;
+    animation-fill-mode: both;
+    display: grid;
+    place-items: center;
+    margin: auto;
+    font-family: 'Tiro Tamil', serif;
+    padding:4vw;
+    grid-column: 1/6  ;
+    font-size: 2vw;
+}
+
+.Proximo_Div_Curriculo {
+    animation: Link 2s cubic-bezier(.15,.89,.85,.29), LinkScale 1s ease-in alternate infinite ;
+    animation-delay: 10s;
+    animation-fill-mode: both;
+    display: grid;
+    grid-column: 7/8;
+    padding-top: 6vw;
+}
+
+.Proximo_Curriculo{
+    place-items: center;
+    margin: auto;
+}
+
+.Proximo_4_h1 {
+    animation: FadeIn 1s;
+    animation-delay: 4s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: both;
+    position: relative;
+    margin: auto;
+    font-family: 'Tiro Tamil', serif;
+    padding-top: 6vw;
+    grid-column: 1/11;
+}
+
+.Proximo_4_h1::after {
+    animation: Underline 2s cubic-bezier(0,.94,.59,.85);
+    animation-delay: 7.5s;
+    animation-fill-mode: both;
+    content:"";
+    position: absolute;
+    width: 100%;
+    transform: scaleX(1);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    transition: transform 0.3s ease-out
+}
+
+@keyframes UpperFadeIn{
+    0% {opacity: 0; transform:translateX(-200px)}
+    30% {opacity: 0;}
+    70% {opacity: 1; transform:translateX(25px)}
+    100% {opacity: 1;}
+}
+
+@keyframes Link {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+@keyframes LinkScale {
+    from {
+        transform: scale(1);
+    }
+    to {
+        transform: scale(1.2);
+    }
+}
+
+@keyframes Underline {
+    from {
+        transform: scaleX(0%);
+    }
+    to {
+        transform: scaleX(100%);
+    }
+}

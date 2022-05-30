@@ -1,0 +1,8 @@
+.Titulo_Content {
+    color: white;
+    font: normal 15pt Arial;
+    text-align: center;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,13 @@
+.Visor_Container {
+    background: rgba(156, 194, 156, 0.541);
+    border-style: double;
+    width: 50%;
+    margin: auto;
+    font-size: 15px;
+    text-align: center;
+}
+
+
+.Visor_Content {
+
+}
